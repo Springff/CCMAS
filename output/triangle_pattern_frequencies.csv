@@ -1,0 +1,143 @@
+pattern,count,percentage
+CAF - CAF - CAF,133,11.475409836065573
+Malignant - Malignant - Malignant,86,7.420189818809318
+CAF - CAF - Macrophage,71,6.125970664365832
+CAF - CAF - Malignant,59,5.090595340811044
+CAF - Malignant - Malignant,52,4.486626402070751
+CAF - CAF - Plasma,48,4.141501294219154
+CAF - Macrophage - Malignant,40,3.4512510785159622
+CAF - CAF - Mast,36,3.106125970664366
+Macrophage - Malignant - Malignant,33,2.8472821397756687
+CAF - CAF - Endothelial,26,2.2433132010353756
+CAF - Macrophage - Macrophage,24,2.070750647109577
+CAF - Macrophage - Plasma,23,1.984469370146678
+CAF - Plasma - Plasma,21,1.81190681622088
+CAF - Malignant - Plasma,19,1.639344262295082
+CAF - CAF - Pericyte,18,1.553062985332183
+CAF - CAF - Smooth muscle,18,1.553062985332183
+CAF - Pericyte - Plasma,17,1.4667817083692838
+CAF - Endothelial - Plasma,15,1.2942191544434858
+Macrophage - Macrophage - Malignant,13,1.1216566005176878
+CAF - Macrophage - Pericyte,13,1.1216566005176878
+Plasma - Plasma - Plasma,13,1.1216566005176878
+Macrophage - Macrophage - Plasma,11,0.9490940465918896
+Macrophage - Plasma - Plasma,10,0.8628127696289906
+CAF - Endothelial - Malignant,10,0.8628127696289906
+Malignant - Malignant - Plasma,10,0.8628127696289906
+CAF - Malignant - Mast,10,0.8628127696289906
+CAF - Endothelial - Pericyte,9,0.7765314926660914
+CAF - Malignant - Pericyte,9,0.7765314926660914
+CAF - Macrophage - Natural killer,8,0.6902502157031924
+Macrophage - Macrophage - Macrophage,8,0.6902502157031924
+CAF - Mast - Plasma,8,0.6902502157031924
+Macrophage - Malignant - Plasma,8,0.6902502157031924
+Endothelial - Plasma - Plasma,8,0.6902502157031924
+CAF - CAF - Dendritic (activated),7,0.6039689387402933
+CAF - CAF - Schwann/nerve,7,0.6039689387402933
+CAF - Plasma - Schwann/nerve,7,0.6039689387402933
+CAF - Mast - Smooth muscle,7,0.6039689387402933
+CAF - Endothelial - Macrophage,7,0.6039689387402933
+CAF - CAF - Natural killer,7,0.6039689387402933
+CAF - Mast - Mast,6,0.5176876617773942
+CAF - Macrophage - Mast,6,0.5176876617773942
+Pericyte - Plasma - Plasma,6,0.5176876617773942
+CAF - Malignant - Smooth muscle,6,0.5176876617773942
+CAF - Pericyte - Smooth muscle,6,0.5176876617773942
+Macrophage - Pericyte - Plasma,6,0.5176876617773942
+Malignant - Malignant - Smooth muscle,5,0.4314063848144953
+CAF - CAF - CD8+ T,5,0.4314063848144953
+Malignant - Plasma - Plasma,5,0.4314063848144953
+Plasma - Plasma - Schwann/nerve,5,0.4314063848144953
+Malignant - Malignant - Pericyte,4,0.3451251078515962
+Endothelial - Macrophage - Plasma,4,0.3451251078515962
+Dendritic (activated) - Macrophage - Malignant,4,0.3451251078515962
+CAF - Plasma - Smooth muscle,4,0.3451251078515962
+CAF - Dendritic (activated) - Malignant,4,0.3451251078515962
+Dendritic (activated) - Malignant - Malignant,4,0.3451251078515962
+Dendritic (conventional) - Malignant - Malignant,4,0.3451251078515962
+CAF - Dendritic (activated) - Macrophage,4,0.3451251078515962
+CAF - Dendritic (activated) - Plasma,3,0.2588438308886971
+Macrophage - Malignant - Pericyte,3,0.2588438308886971
+CAF - Mast - Pericyte,3,0.2588438308886971
+Endothelial - Macrophage - Malignant,3,0.2588438308886971
+CAF - Macrophage - Schwann/nerve,3,0.2588438308886971
+Mast - Pericyte - Plasma,3,0.2588438308886971
+CAF - Dendritic (activated) - Pericyte,3,0.2588438308886971
+Macrophage - Macrophage - Pericyte,3,0.2588438308886971
+Endothelial - Malignant - Plasma,3,0.2588438308886971
+Malignant - Mast - Plasma,3,0.2588438308886971
+Malignant - Pericyte - Plasma,3,0.2588438308886971
+CAF - Pericyte - Schwann/nerve,3,0.2588438308886971
+Malignant - Malignant - Mast,3,0.2588438308886971
+Endothelial - Endothelial - Plasma,3,0.2588438308886971
+CAF - Mast - Schwann/nerve,3,0.2588438308886971
+Mast - Plasma - Schwann/nerve,3,0.2588438308886971
+CAF - Endothelial - Endothelial,3,0.2588438308886971
+Endothelial - Malignant - Pericyte,3,0.2588438308886971
+CAF - Mast - Natural killer,3,0.2588438308886971
+Pericyte - Plasma - Smooth muscle,2,0.1725625539257981
+CAF - Smooth muscle - Smooth muscle,2,0.1725625539257981
+CAF - Macrophage - Smooth muscle,2,0.1725625539257981
+Endothelial - Malignant - Malignant,2,0.1725625539257981
+Malignant - Pericyte - Smooth muscle,2,0.1725625539257981
+CAF - CD8+ T - Malignant,2,0.1725625539257981
+Dendritic (conventional) - Macrophage - Malignant,2,0.1725625539257981
+Macrophage - Mast - Plasma,2,0.1725625539257981
+CAF - Natural killer - Smooth muscle,2,0.1725625539257981
+CAF - Natural killer - Plasma,2,0.1725625539257981
+CAF - Malignant - Natural killer,2,0.1725625539257981
+Macrophage - Plasma - Schwann/nerve,2,0.1725625539257981
+Macrophage - Malignant - Smooth muscle,2,0.1725625539257981
+CAF - Dendritic (plasmacytoid) - Macrophage,2,0.1725625539257981
+CAF - Endothelial - Mast,2,0.1725625539257981
+CAF - CAF - Dendritic (plasmacytoid),2,0.1725625539257981
+Endothelial - Pericyte - Plasma,2,0.1725625539257981
+CAF - Dendritic (conventional) - Macrophage,2,0.1725625539257981
+Endothelial - Plasma - Treg,2,0.1725625539257981
+Mast - Plasma - Plasma,1,0.08628127696289906
+Endothelial - Macrophage - Macrophage,1,0.08628127696289906
+Schwann/nerve - Schwann/nerve - Schwann/nerve,1,0.08628127696289906
+CAF - Dendritic (conventional) - Plasma,1,0.08628127696289906
+Dendritic (activated) - Neutrophil - Pericyte,1,0.08628127696289906
+CAF - Dendritic (conventional) - Endothelial,1,0.08628127696289906
+Dendritic (activated) - Dendritic (activated) - Macrophage,1,0.08628127696289906
+Dendritic (conventional) - Macrophage - Macrophage,1,0.08628127696289906
+Plasma - Schwann/nerve - Schwann/nerve,1,0.08628127696289906
+Dendritic (activated) - Macrophage - Mast,1,0.08628127696289906
+Endothelial - Plasma - Smooth muscle,1,0.08628127696289906
+CAF - Schwann/nerve - Schwann/nerve,1,0.08628127696289906
+Plasma - Plasma - Treg,1,0.08628127696289906
+Endothelial - Endothelial - Treg,1,0.08628127696289906
+Mast - Mast - Smooth muscle,1,0.08628127696289906
+Macrophage - Malignant - Mast,1,0.08628127696289906
+CAF - CAF - Dendritic (conventional),1,0.08628127696289906
+Dendritic (activated) - Endothelial - Smooth muscle,1,0.08628127696289906
+CAF - Dendritic (activated) - Neutrophil,1,0.08628127696289906
+Macrophage - Pericyte - Pericyte,1,0.08628127696289906
+Macrophage - Plasma - Smooth muscle,1,0.08628127696289906
+Pericyte - Schwann/nerve - Schwann/nerve,1,0.08628127696289906
+Dendritic (conventional) - Endothelial - Endothelial,1,0.08628127696289906
+Dendritic (activated) - Macrophage - Smooth muscle,1,0.08628127696289906
+Dendritic (conventional) - Endothelial - Malignant,1,0.08628127696289906
+CAF - Dendritic (activated) - Dendritic (activated),1,0.08628127696289906
+Natural killer - Plasma - Smooth muscle,1,0.08628127696289906
+Malignant - Mast - Mast,1,0.08628127696289906
+Natural killer - Pericyte - Plasma,1,0.08628127696289906
+Endothelial - Malignant - Smooth muscle,1,0.08628127696289906
+Mast - Natural killer - Smooth muscle,1,0.08628127696289906
+CAF - Dendritic (activated) - Mast,1,0.08628127696289906
+CAF - Endothelial - Smooth muscle,1,0.08628127696289906
+Malignant - Malignant - Natural killer,1,0.08628127696289906
+CAF - Macrophage - Neutrophil,1,0.08628127696289906
+Malignant - Pericyte - Pericyte,1,0.08628127696289906
+Macrophage - Neutrophil - Pericyte,1,0.08628127696289906
+CAF - Dendritic (conventional) - Malignant,1,0.08628127696289906
+CAF - Natural killer - Pericyte,1,0.08628127696289906
+Malignant - Plasma - Smooth muscle,1,0.08628127696289906
+Endothelial - Endothelial - Macrophage,1,0.08628127696289906
+Dendritic (activated) - Malignant - Plasma,1,0.08628127696289906
+Endothelial - Endothelial - Malignant,1,0.08628127696289906
+Dendritic (conventional) - Malignant - Plasma,1,0.08628127696289906
+Macrophage - Pericyte - Schwann/nerve,1,0.08628127696289906
+CAF - CAF - Neutrophil,1,0.08628127696289906
+Dendritic (activated) - Endothelial - Malignant,1,0.08628127696289906

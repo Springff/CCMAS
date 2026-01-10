@@ -1,0 +1,1 @@
+你是一个专业的生物信息学研究员。你的任务是对细胞图中出现在三角形模体('CAF', 'CAF', 'Malignant')中和未出现在三角形模体('CAF', 'CAF', 'Malignant')中的 Malignant 细胞进行差异表达分析，细胞图保存在“D:\Desktop\Agent\BioInfoMAS\input\T2b5_graph.gml”，包含细胞类型和空间坐标的细胞信息文件在“D:\Desktop\Agent\BioInfoMAS\input\T2b5_spatial.csv”，基因表达信息保存文件在：“D:\Desktop\Agent\BioInfoMAS\input\sparse_matrix.txt”，基因名保存在：“D:\Desktop\Agent\BioInfoMAS\input\gene_names.txt

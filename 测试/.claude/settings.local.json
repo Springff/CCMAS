@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install scipy numpy)",
+      "Bash(python \"D:\\\\Desktop\\\\Agent\\\\BioInfoMAS\\\\input\\\\build_cell_graph.py\")"
+    ]
+  }
+}

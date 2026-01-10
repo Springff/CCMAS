@@ -1,0 +1,17 @@
+Motif Identification Summary
+========================================
+Total unique motif types: 233
+Total motif instances: 6750
+Most frequent motif: ('CAF', 'CAF', 'CAF') with 706 instances
+
+Top 10 Motifs:
+ 1. ('CAF', 'CAF', 'CAF'): 706 instances (topologies: {'path_2_or_v_shape': 573, 'triangle': 133})
+ 2. ('CAF', 'CAF', 'Macrophage'): 460 instances (topologies: {'path_2_or_v_shape': 389, 'triangle': 71})
+ 3. ('CAF', 'CAF', 'Malignant'): 429 instances (topologies: {'triangle': 59, 'path_2_or_v_shape': 370})
+ 4. ('Malignant', 'Malignant', 'Malignant'): 385 instances (topologies: {'path_2_or_v_shape': 299, 'triangle': 86})
+ 5. ('CAF', 'Malignant', 'Malignant'): 314 instances (topologies: {'path_2_or_v_shape': 262, 'triangle': 52})
+ 6. ('CAF', 'Macrophage', 'Malignant'): 274 instances (topologies: {'path_2_or_v_shape': 234, 'triangle': 40})
+ 7. ('CAF', 'CAF', 'Plasma'): 270 instances (topologies: {'triangle': 48, 'path_2_or_v_shape': 222})
+ 8. ('CAF', 'CAF', 'Mast'): 196 instances (topologies: {'path_2_or_v_shape': 160, 'triangle': 36})
+ 9. ('Macrophage', 'Malignant', 'Malignant'): 172 instances (topologies: {'path_2_or_v_shape': 139, 'triangle': 33})
+10. ('CAF', 'Macrophage', 'Plasma'): 151 instances (topologies: {'path_2_or_v_shape': 128, 'triangle': 23})

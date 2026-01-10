@@ -1,0 +1,1169 @@
+Motif Analysis Results
+==================================================
+Total unique motif types: 233
+
+Motif: ('CAF', 'CAF', 'CAF')
+  Total instances: 706
+  Topologies: {'path_2': 573, 'triangle': 133}
+  Sample instances: [(4, 141, 142), (4, 141, 145), (4, 141, 148)]...
+
+Motif: ('CAF', 'CAF', 'Macrophage')
+  Total instances: 460
+  Topologies: {'path_2': 389, 'triangle': 71}
+  Sample instances: [(2, 6, 142), (2, 6, 201), (2, 141, 142)]...
+
+Motif: ('CAF', 'CAF', 'Malignant')
+  Total instances: 429
+  Topologies: {'path_2': 370, 'triangle': 59}
+  Sample instances: [(0, 4, 141), (0, 141, 142), (0, 141, 145)]...
+
+Motif: ('Malignant', 'Malignant', 'Malignant')
+  Total instances: 385
+  Topologies: {'path_2': 299, 'triangle': 86}
+  Sample instances: [(18, 175, 188), (18, 188, 207), (18, 207, 212)]...
+
+Motif: ('CAF', 'Malignant', 'Malignant')
+  Total instances: 314
+  Topologies: {'path_2': 262, 'triangle': 52}
+  Sample instances: [(0, 1, 145), (6, 157, 167), (6, 157, 175)]...
+
+Motif: ('CAF', 'Macrophage', 'Malignant')
+  Total instances: 274
+  Topologies: {'path_2': 234, 'triangle': 40}
+  Sample instances: [(0, 9, 141), (0, 9, 145), (0, 9, 148)]...
+
+Motif: ('CAF', 'CAF', 'Plasma')
+  Total instances: 270
+  Topologies: {'path_2': 222, 'triangle': 48}
+  Sample instances: [(4, 141, 282), (4, 172, 282), (4, 221, 282)]...
+
+Motif: ('CAF', 'CAF', 'Mast')
+  Total instances: 196
+  Topologies: {'path_2': 160, 'triangle': 36}
+  Sample instances: [(4, 53, 330), (4, 172, 183), (4, 172, 186)]...
+
+Motif: ('Macrophage', 'Malignant', 'Malignant')
+  Total instances: 172
+  Topologies: {'path_2': 139, 'triangle': 33}
+  Sample instances: [(18, 175, 185), (18, 185, 188), (18, 185, 207)]...
+
+Motif: ('CAF', 'Macrophage', 'Plasma')
+  Total instances: 151
+  Topologies: {'path_2': 128, 'triangle': 23}
+  Sample instances: [(2, 6, 17), (2, 17, 142), (2, 17, 239)]...
+
+Motif: ('CAF', 'Macrophage', 'Macrophage')
+  Total instances: 149
+  Topologies: {'path_2': 125, 'triangle': 24}
+  Sample instances: [(2, 6, 11), (2, 6, 147), (2, 6, 155)]...
+
+Motif: ('CAF', 'CAF', 'Pericyte')
+  Total instances: 134
+  Topologies: {'path_2': 116, 'triangle': 18}
+  Sample instances: [(4, 37, 278), (4, 141, 278), (4, 172, 278)]...
+
+Motif: ('CAF', 'CAF', 'Endothelial')
+  Total instances: 133
+  Topologies: {'triangle': 26, 'path_2': 107}
+  Sample instances: [(25, 215, 226), (61, 352, 365), (61, 365, 370)]...
+
+Motif: ('CAF', 'Plasma', 'Plasma')
+  Total instances: 127
+  Topologies: {'path_2': 106, 'triangle': 21}
+  Sample instances: [(12, 14, 178), (12, 151, 162), (12, 162, 166)]...
+
+Motif: ('CAF', 'Malignant', 'Plasma')
+  Total instances: 109
+  Topologies: {'path_2': 90, 'triangle': 19}
+  Sample instances: [(0, 13, 141), (0, 13, 145), (0, 13, 148)]...
+
+Motif: ('CAF', 'CAF', 'Smooth muscle')
+  Total instances: 98
+  Topologies: {'path_2': 80, 'triangle': 18}
+  Sample instances: [(37, 260, 289), (37, 289, 343), (38, 283, 307)]...
+
+Motif: ('CAF', 'Pericyte', 'Plasma')
+  Total instances: 95
+  Topologies: {'triangle': 17, 'path_2': 78}
+  Sample instances: [(4, 278, 282), (5, 173, 192), (7, 142, 144)]...
+
+Motif: ('CAF', 'Endothelial', 'Plasma')
+  Total instances: 93
+  Topologies: {'path_2': 78, 'triangle': 15}
+  Sample instances: [(13, 179, 196), (13, 182, 196), (17, 210, 239)]...
+
+Motif: ('CAF', 'Malignant', 'Pericyte')
+  Total instances: 73
+  Topologies: {'path_2': 64, 'triangle': 9}
+  Sample instances: [(1, 151, 168), (1, 153, 168), (5, 156, 173)]...
+
+Motif: ('Malignant', 'Malignant', 'Plasma')
+  Total instances: 68
+  Topologies: {'path_2': 58, 'triangle': 10}
+  Sample instances: [(31, 33, 251), (33, 35, 251), (35, 39, 279)]...
+
+Motif: ('Macrophage', 'Malignant', 'Plasma')
+  Total instances: 64
+  Topologies: {'triangle': 8, 'path_2': 56}
+  Sample instances: [(0, 9, 13), (2, 17, 163), (11, 17, 163)]...
+
+Motif: ('Macrophage', 'Macrophage', 'Malignant')
+  Total instances: 64
+  Topologies: {'path_2': 51, 'triangle': 13}
+  Sample instances: [(2, 11, 163), (2, 147, 157), (2, 147, 167)]...
+
+Motif: ('Plasma', 'Plasma', 'Plasma')
+  Total instances: 60
+  Topologies: {'path_2': 47, 'triangle': 13}
+  Sample instances: [(12, 14, 162), (19, 21, 22), (19, 22, 192)]...
+
+Motif: ('CAF', 'Malignant', 'Mast')
+  Total instances: 59
+  Topologies: {'path_2': 49, 'triangle': 10}
+  Sample instances: [(0, 8, 145), (0, 148, 183), (1, 8, 143)]...
+
+Motif: ('CAF', 'Endothelial', 'Malignant')
+  Total instances: 59
+  Topologies: {'path_2': 49, 'triangle': 10}
+  Sample instances: [(30, 235, 252), (64, 367, 370), (64, 370, 380)]...
+
+Motif: ('CAF', 'Macrophage', 'Pericyte')
+  Total instances: 56
+  Topologies: {'path_2': 43, 'triangle': 13}
+  Sample instances: [(3, 5, 173), (3, 7, 146), (3, 7, 154)]...
+
+Motif: ('Macrophage', 'Plasma', 'Plasma')
+  Total instances: 56
+  Topologies: {'path_2': 46, 'triangle': 10}
+  Sample instances: [(12, 162, 176), (19, 22, 23), (19, 22, 200)]...
+
+Motif: ('Macrophage', 'Macrophage', 'Plasma')
+  Total instances: 55
+  Topologies: {'triangle': 11, 'path_2': 44}
+  Sample instances: [(2, 11, 17), (2, 17, 147), (2, 17, 155)]...
+
+Motif: ('CAF', 'Mast', 'Plasma')
+  Total instances: 54
+  Topologies: {'path_2': 46, 'triangle': 8}
+  Sample instances: [(6, 17, 199), (8, 13, 145), (8, 13, 179)]...
+
+Motif: ('Endothelial', 'Plasma', 'Plasma')
+  Total instances: 52
+  Topologies: {'path_2': 44, 'triangle': 8}
+  Sample instances: [(17, 210, 245), (19, 22, 226), (21, 22, 226)]...
+
+Motif: ('CAF', 'Malignant', 'Smooth muscle')
+  Total instances: 52
+  Topologies: {'path_2': 46, 'triangle': 6}
+  Sample instances: [(37, 50, 289), (45, 291, 312), (45, 294, 312)]...
+
+Motif: ('CAF', 'Macrophage', 'Mast')
+  Total instances: 50
+  Topologies: {'triangle': 6, 'path_2': 44}
+  Sample instances: [(2, 6, 199), (2, 142, 199), (2, 199, 201)]...
+
+Motif: ('CAF', 'Endothelial', 'Macrophage')
+  Total instances: 45
+  Topologies: {'path_2': 38, 'triangle': 7}
+  Sample instances: [(9, 182, 196), (9, 187, 196), (15, 179, 196)]...
+
+Motif: ('CAF', 'CAF', 'Natural killer')
+  Total instances: 40
+  Topologies: {'path_2': 33, 'triangle': 7}
+  Sample instances: [(41, 328, 330), (63, 81, 298), (63, 267, 298)]...
+
+Motif: ('CAF', 'Plasma', 'Schwann/nerve')
+  Total instances: 39
+  Topologies: {'path_2': 32, 'triangle': 7}
+  Sample instances: [(12, 154, 160), (12, 160, 166), (12, 160, 178)]...
+
+Motif: ('Malignant', 'Plasma', 'Plasma')
+  Total instances: 36
+  Topologies: {'path_2': 31, 'triangle': 5}
+  Sample instances: [(1, 12, 162), (1, 14, 162), (14, 16, 162)]...
+
+Motif: ('CAF', 'CAF', 'Schwann/nerve')
+  Total instances: 35
+  Topologies: {'path_2': 28, 'triangle': 7}
+  Sample instances: [(20, 173, 180), (20, 180, 206), (20, 193, 206)]...
+
+Motif: ('Macrophage', 'Macrophage', 'Macrophage')
+  Total instances: 34
+  Topologies: {'path_2': 26, 'triangle': 8}
+  Sample instances: [(2, 11, 147), (2, 11, 155), (2, 27, 155)]...
+
+Motif: ('CAF', 'Mast', 'Smooth muscle')
+  Total instances: 34
+  Topologies: {'path_2': 27, 'triangle': 7}
+  Sample instances: [(10, 154, 159), (37, 53, 289), (53, 289, 328)]...
+
+Motif: ('CAF', 'CAF', 'Dendritic (activated)')
+  Total instances: 34
+  Topologies: {'path_2': 27, 'triangle': 7}
+  Sample instances: [(59, 61, 363), (59, 61, 365), (59, 345, 363)]...
+
+Motif: ('CAF', 'Endothelial', 'Pericyte')
+  Total instances: 33
+  Topologies: {'path_2': 24, 'triangle': 9}
+  Sample instances: [(77, 370, 380), (77, 380, 385), (77, 385, 401)]...
+
+Motif: ('Pericyte', 'Plasma', 'Plasma')
+  Total instances: 30
+  Topologies: {'path_2': 24, 'triangle': 6}
+  Sample instances: [(12, 162, 168), (14, 162, 168), (14, 168, 169)]...
+
+Motif: ('Macrophage', 'Pericyte', 'Plasma')
+  Total instances: 29
+  Topologies: {'path_2': 23, 'triangle': 6}
+  Sample instances: [(3, 5, 144), (3, 7, 144), (5, 144, 152)]...
+
+Motif: ('Endothelial', 'Malignant', 'Malignant')
+  Total instances: 28
+  Topologies: {'path_2': 26, 'triangle': 2}
+  Sample instances: [(31, 241, 251), (35, 241, 251), (95, 97, 464)]...
+
+Motif: ('CAF', 'Plasma', 'Smooth muscle')
+  Total instances: 26
+  Topologies: {'path_2': 22, 'triangle': 4}
+  Sample instances: [(4, 282, 289), (12, 159, 166), (37, 282, 289)]...
+
+Motif: ('CAF', 'Macrophage', 'Natural killer')
+  Total instances: 26
+  Topologies: {'path_2': 18, 'triangle': 8}
+  Sample instances: [(27, 267, 298), (63, 298, 322), (66, 298, 317)]...
+
+Motif: ('Plasma', 'Plasma', 'Schwann/nerve')
+  Total instances: 25
+  Topologies: {'path_2': 20, 'triangle': 5}
+  Sample instances: [(12, 150, 162), (12, 160, 162), (14, 150, 162)]...
+
+Motif: ('CAF', 'Macrophage', 'Smooth muscle')
+  Total instances: 25
+  Topologies: {'triangle': 2, 'path_2': 23}
+  Sample instances: [(27, 246, 267), (27, 246, 277), (37, 51, 289)]...
+
+Motif: ('CAF', 'Dendritic (activated)', 'Macrophage')
+  Total instances: 24
+  Topologies: {'path_2': 20, 'triangle': 4}
+  Sample instances: [(26, 27, 267), (43, 321, 336), (59, 61, 333)]...
+
+Motif: ('CAF', 'Macrophage', 'Schwann/nerve')
+  Total instances: 24
+  Topologies: {'path_2': 21, 'triangle': 3}
+  Sample instances: [(29, 248, 257), (32, 257, 258), (43, 49, 306)]...
+
+Motif: ('Malignant', 'Malignant', 'Pericyte')
+  Total instances: 24
+  Topologies: {'triangle': 4, 'path_2': 20}
+  Sample instances: [(36, 254, 255), (36, 254, 285), (42, 45, 309)]...
+
+Motif: ('CAF', 'Mast', 'Mast')
+  Total instances: 24
+  Topologies: {'triangle': 6, 'path_2': 18}
+  Sample instances: [(131, 525, 551), (131, 532, 551), (131, 541, 551)]...
+
+Motif: ('CAF', 'CAF', 'CD8+ T')
+  Total instances: 24
+  Topologies: {'path_2': 19, 'triangle': 5}
+  Sample instances: [(529, 540, 578), (540, 568, 578), (540, 576, 578)]...
+
+Motif: ('Malignant', 'Malignant', 'Smooth muscle')
+  Total instances: 23
+  Topologies: {'path_2': 18, 'triangle': 5}
+  Sample instances: [(42, 45, 312), (42, 311, 312), (45, 297, 312)]...
+
+Motif: ('Malignant', 'Pericyte', 'Plasma')
+  Total instances: 22
+  Topologies: {'path_2': 19, 'triangle': 3}
+  Sample instances: [(1, 162, 168), (7, 144, 156), (14, 16, 168)]...
+
+Motif: ('CAF', 'Dendritic (activated)', 'Malignant')
+  Total instances: 21
+  Topologies: {'path_2': 17, 'triangle': 4}
+  Sample instances: [(16, 202, 233), (30, 202, 233), (30, 225, 233)]...
+
+Motif: ('Macrophage', 'Malignant', 'Pericyte')
+  Total instances: 20
+  Topologies: {'path_2': 17, 'triangle': 3}
+  Sample instances: [(3, 5, 156), (3, 7, 156), (5, 152, 156)]...
+
+Motif: ('CAF', 'Pericyte', 'Smooth muscle')
+  Total instances: 20
+  Topologies: {'path_2': 14, 'triangle': 6}
+  Sample instances: [(4, 278, 289), (7, 146, 159), (7, 154, 159)]...
+
+Motif: ('Endothelial', 'Macrophage', 'Malignant')
+  Total instances: 20
+  Topologies: {'path_2': 17, 'triangle': 3}
+  Sample instances: [(11, 163, 210), (27, 163, 210), (54, 58, 303)]...
+
+Motif: ('CAF', 'Dendritic (activated)', 'Plasma')
+  Total instances: 20
+  Topologies: {'path_2': 17, 'triangle': 3}
+  Sample instances: [(14, 202, 233), (49, 327, 336), (55, 59, 61)]...
+
+Motif: ('Endothelial', 'Malignant', 'Plasma')
+  Total instances: 20
+  Topologies: {'triangle': 3, 'path_2': 17}
+  Sample instances: [(17, 163, 210), (21, 241, 251), (30, 217, 241)]...
+
+Motif: ('CAF', 'Endothelial', 'Endothelial')
+  Total instances: 20
+  Topologies: {'path_2': 17, 'triangle': 3}
+  Sample instances: [(25, 226, 241), (61, 352, 370), (61, 370, 385)]...
+
+Motif: ('Dendritic (activated)', 'Malignant', 'Malignant')
+  Total instances: 20
+  Topologies: {'path_2': 16, 'triangle': 4}
+  Sample instances: [(130, 534, 536), (130, 536, 538), (130, 536, 544)]...
+
+Motif: ('CAF', 'Mast', 'Pericyte')
+  Total instances: 19
+  Topologies: {'path_2': 16, 'triangle': 3}
+  Sample instances: [(7, 10, 154), (8, 153, 168), (131, 521, 525)]...
+
+Motif: ('CAF', 'Malignant', 'Natural killer')
+  Total instances: 19
+  Topologies: {'path_2': 17, 'triangle': 2}
+  Sample instances: [(70, 338, 384), (85, 86, 439), (85, 108, 467)]...
+
+Motif: ('Endothelial', 'Macrophage', 'Plasma')
+  Total instances: 18
+  Topologies: {'path_2': 14, 'triangle': 4}
+  Sample instances: [(2, 17, 210), (11, 17, 210), (22, 23, 226)]...
+
+Motif: ('Malignant', 'Mast', 'Plasma')
+  Total instances: 17
+  Topologies: {'path_2': 14, 'triangle': 3}
+  Sample instances: [(1, 8, 162), (1, 8, 169), (1, 10, 162)]...
+
+Motif: ('CAF', 'Endothelial', 'Mast')
+  Total instances: 17
+  Topologies: {'path_2': 15, 'triangle': 2}
+  Sample instances: [(8, 179, 196), (179, 196, 231), (182, 196, 231)]...
+
+Motif: ('Dendritic (activated)', 'Macrophage', 'Malignant')
+  Total instances: 17
+  Topologies: {'path_2': 13, 'triangle': 4}
+  Sample instances: [(11, 26, 163), (26, 27, 163), (26, 155, 163)]...
+
+Motif: ('Macrophage', 'Macrophage', 'Pericyte')
+  Total instances: 16
+  Topologies: {'path_2': 13, 'triangle': 3}
+  Sample instances: [(2, 147, 161), (3, 5, 152), (3, 7, 152)]...
+
+Motif: ('CAF', 'Pericyte', 'Schwann/nerve')
+  Total instances: 16
+  Topologies: {'path_2': 13, 'triangle': 3}
+  Sample instances: [(5, 173, 177), (5, 173, 180), (7, 146, 150)]...
+
+Motif: ('CAF', 'Natural killer', 'Smooth muscle')
+  Total instances: 16
+  Topologies: {'path_2': 14, 'triangle': 2}
+  Sample instances: [(37, 41, 289), (41, 289, 328), (41, 289, 343)]...
+
+Motif: ('CAF', 'Dendritic (conventional)', 'Malignant')
+  Total instances: 15
+  Topologies: {'path_2': 14, 'triangle': 1}
+  Sample instances: [(25, 28, 234), (25, 31, 234), (25, 234, 251)]...
+
+Motif: ('Mast', 'Pericyte', 'Plasma')
+  Total instances: 14
+  Topologies: {'path_2': 11, 'triangle': 3}
+  Sample instances: [(8, 168, 169), (10, 162, 168), (77, 404, 407)]...
+
+Motif: ('Endothelial', 'Endothelial', 'Plasma')
+  Total instances: 14
+  Topologies: {'triangle': 3, 'path_2': 11}
+  Sample instances: [(21, 226, 241), (21, 241, 252), (22, 226, 241)]...
+
+Motif: ('Malignant', 'Malignant', 'Mast')
+  Total instances: 14
+  Topologies: {'path_2': 11, 'triangle': 3}
+  Sample instances: [(42, 324, 337), (42, 324, 364), (64, 324, 364)]...
+
+Motif: ('Endothelial', 'Pericyte', 'Plasma')
+  Total instances: 14
+  Topologies: {'path_2': 12, 'triangle': 2}
+  Sample instances: [(75, 77, 385), (77, 385, 406), (77, 385, 407)]...
+
+Motif: ('Macrophage', 'Plasma', 'Schwann/nerve')
+  Total instances: 13
+  Topologies: {'path_2': 11, 'triangle': 2}
+  Sample instances: [(12, 160, 176), (19, 23, 193), (19, 193, 200)]...
+
+Motif: ('Dendritic (conventional)', 'Malignant', 'Malignant')
+  Total instances: 13
+  Topologies: {'triangle': 4, 'path_2': 9}
+  Sample instances: [(28, 31, 234), (28, 234, 251), (31, 34, 35)]...
+
+Motif: ('CAF', 'CD8+ T', 'Malignant')
+  Total instances: 13
+  Topologies: {'path_2': 11, 'triangle': 2}
+  Sample instances: [(137, 529, 578), (137, 540, 578), (137, 553, 578)]...
+
+Motif: ('CAF', 'Dendritic (activated)', 'Pericyte')
+  Total instances: 13
+  Topologies: {'triangle': 3, 'path_2': 10}
+  Sample instances: [(295, 310, 323), (295, 323, 341), (299, 310, 323)]...
+
+Motif: ('Endothelial', 'Malignant', 'Pericyte')
+  Total instances: 12
+  Topologies: {'path_2': 9, 'triangle': 3}
+  Sample instances: [(95, 111, 488), (95, 464, 488), (95, 476, 488)]...
+
+Motif: ('CAF', 'Schwann/nerve', 'Schwann/nerve')
+  Total instances: 11
+  Topologies: {'path_2': 10, 'triangle': 1}
+  Sample instances: [(20, 170, 180), (20, 177, 180), (150, 154, 160)]...
+
+Motif: ('Macrophage', 'Malignant', 'Smooth muscle')
+  Total instances: 11
+  Topologies: {'path_2': 9, 'triangle': 2}
+  Sample instances: [(27, 163, 246), (82, 84, 415), (86, 420, 452)]...
+
+Motif: ('Dendritic (activated)', 'Malignant', 'Plasma')
+  Total instances: 10
+  Topologies: {'path_2': 9, 'triangle': 1}
+  Sample instances: [(17, 26, 163), (30, 217, 233), (129, 536, 542)]...
+
+Motif: ('Dendritic (conventional)', 'Macrophage', 'Malignant')
+  Total instances: 10
+  Topologies: {'triangle': 2, 'path_2': 8}
+  Sample instances: [(23, 28, 234), (23, 31, 234), (23, 234, 251)]...
+
+Motif: ('Malignant', 'Mast', 'Mast')
+  Total instances: 9
+  Topologies: {'path_2': 8, 'triangle': 1}
+  Sample instances: [(1, 8, 149), (64, 337, 364), (131, 551, 554)]...
+
+Motif: ('CAF', 'Natural killer', 'Plasma')
+  Total instances: 9
+  Topologies: {'path_2': 7, 'triangle': 2}
+  Sample instances: [(4, 41, 282), (41, 282, 328), (41, 282, 330)]...
+
+Motif: ('Pericyte', 'Plasma', 'Smooth muscle')
+  Total instances: 9
+  Topologies: {'path_2': 7, 'triangle': 2}
+  Sample instances: [(7, 144, 159), (87, 434, 456), (278, 282, 289)]...
+
+Motif: ('CAF', 'Mast', 'Natural killer')
+  Total instances: 9
+  Topologies: {'triangle': 3, 'path_2': 6}
+  Sample instances: [(41, 53, 328), (41, 53, 330), (41, 53, 340)]...
+
+Motif: ('CAF', 'Dendritic (activated)', 'Mast')
+  Total instances: 9
+  Topologies: {'path_2': 8, 'triangle': 1}
+  Sample instances: [(59, 363, 369), (202, 233, 237), (222, 233, 237)]...
+
+Motif: ('CAF', 'Dendritic (plasmacytoid)', 'Macrophage')
+  Total instances: 9
+  Topologies: {'triangle': 2, 'path_2': 7}
+  Sample instances: [(63, 322, 389), (66, 81, 389), (81, 322, 389)]...
+
+Motif: ('Malignant', 'Malignant', 'Natural killer')
+  Total instances: 9
+  Topologies: {'path_2': 8, 'triangle': 1}
+  Sample instances: [(98, 100, 468), (100, 104, 468), (100, 107, 468)]...
+
+Motif: ('Plasma', 'Schwann/nerve', 'Schwann/nerve')
+  Total instances: 9
+  Topologies: {'path_2': 8, 'triangle': 1}
+  Sample instances: [(170, 177, 194), (170, 180, 190), (170, 180, 192)]...
+
+Motif: ('CAF', 'Endothelial', 'Smooth muscle')
+  Total instances: 9
+  Topologies: {'path_2': 8, 'triangle': 1}
+  Sample instances: [(196, 209, 220), (210, 239, 246), (210, 246, 267)]...
+
+Motif: ('Macrophage', 'Malignant', 'Mast')
+  Total instances: 8
+  Topologies: {'path_2': 7, 'triangle': 1}
+  Sample instances: [(1, 8, 15), (8, 15, 16), (47, 324, 337)]...
+
+Motif: ('CAF', 'Pericyte', 'Pericyte')
+  Total instances: 8
+  Topologies: {'path_2': 8}
+  Sample instances: [(5, 7, 146), (5, 7, 154), (5, 7, 173)]...
+
+Motif: ('CAF', 'Mast', 'Schwann/nerve')
+  Total instances: 8
+  Topologies: {'path_2': 5, 'triangle': 3}
+  Sample instances: [(10, 143, 150), (10, 146, 150), (10, 150, 154)]...
+
+Motif: ('Dendritic (conventional)', 'Macrophage', 'Plasma')
+  Total instances: 8
+  Topologies: {'path_2': 8}
+  Sample instances: [(19, 23, 234), (22, 23, 234), (33, 34, 275)]...
+
+Motif: ('CAF', 'CAF', 'Dendritic (plasmacytoid)')
+  Total instances: 8
+  Topologies: {'triangle': 2, 'path_2': 6}
+  Sample instances: [(63, 81, 389), (63, 317, 389), (63, 389, 418)]...
+
+Motif: ('CAF', 'Natural killer', 'Pericyte')
+  Total instances: 8
+  Topologies: {'path_2': 7, 'triangle': 1}
+  Sample instances: [(70, 341, 384), (85, 460, 467), (304, 341, 384)]...
+
+Motif: ('CAF', 'Dendritic (conventional)', 'Endothelial')
+  Total instances: 7
+  Topologies: {'triangle': 1, 'path_2': 6}
+  Sample instances: [(25, 226, 234), (25, 234, 241), (34, 241, 259)]...
+
+Motif: ('CAF', 'Dendritic (activated)', 'Endothelial')
+  Total instances: 7
+  Topologies: {'path_2': 7}
+  Sample instances: [(26, 210, 239), (59, 61, 352), (59, 61, 370)]...
+
+Motif: ('Dendritic (conventional)', 'Endothelial', 'Malignant')
+  Total instances: 7
+  Topologies: {'path_2': 6, 'triangle': 1}
+  Sample instances: [(28, 226, 234), (28, 234, 241), (31, 226, 234)]...
+
+Motif: ('CAF', 'Dendritic (activated)', 'Neutrophil')
+  Total instances: 7
+  Topologies: {'path_2': 6, 'triangle': 1}
+  Sample instances: [(59, 334, 363), (295, 323, 334), (299, 323, 334)]...
+
+Motif: ('CAF', 'Smooth muscle', 'Smooth muscle')
+  Total instances: 7
+  Topologies: {'path_2': 5, 'triangle': 2}
+  Sample instances: [(70, 387, 420), (72, 387, 420), (296, 307, 312)]...
+
+Motif: ('Mast', 'Plasma', 'Plasma')
+  Total instances: 6
+  Topologies: {'triangle': 1, 'path_2': 5}
+  Sample instances: [(10, 12, 162), (10, 14, 162), (12, 149, 162)]...
+
+Motif: ('CAF', 'Plasma', 'Treg')
+  Total instances: 6
+  Topologies: {'path_2': 6}
+  Sample instances: [(61, 65, 67), (65, 67, 365), (65, 67, 373)]...
+
+Motif: ('Macrophage', 'Mast', 'Plasma')
+  Total instances: 5
+  Topologies: {'triangle': 2, 'path_2': 3}
+  Sample instances: [(2, 17, 199), (8, 15, 169), (10, 12, 176)]...
+
+Motif: ('Malignant', 'Pericyte', 'Smooth muscle')
+  Total instances: 5
+  Topologies: {'path_2': 3, 'triangle': 2}
+  Sample instances: [(5, 156, 159), (7, 156, 159), (95, 453, 488)]...
+
+Motif: ('Mast', 'Plasma', 'Schwann/nerve')
+  Total instances: 5
+  Topologies: {'path_2': 2, 'triangle': 3}
+  Sample instances: [(10, 12, 150), (10, 12, 160), (10, 150, 162)]...
+
+Motif: ('CAF', 'Dendritic (conventional)', 'Macrophage')
+  Total instances: 5
+  Topologies: {'triangle': 2, 'path_2': 3}
+  Sample instances: [(23, 25, 234), (34, 259, 275), (34, 259, 284)]...
+
+Motif: ('Dendritic (conventional)', 'Malignant', 'Plasma')
+  Total instances: 5
+  Topologies: {'path_2': 4, 'triangle': 1}
+  Sample instances: [(33, 34, 35), (33, 34, 251), (33, 34, 279)]...
+
+Motif: ('Malignant', 'Mast', 'Smooth muscle')
+  Total instances: 5
+  Topologies: {'path_2': 5}
+  Sample instances: [(45, 312, 318), (220, 231, 269), (311, 312, 318)]...
+
+Motif: ('Endothelial', 'Macrophage', 'Macrophage')
+  Total instances: 5
+  Topologies: {'triangle': 1, 'path_2': 4}
+  Sample instances: [(54, 303, 315), (54, 303, 357), (54, 303, 358)]...
+
+Motif: ('CAF', 'Endothelial', 'Treg')
+  Total instances: 5
+  Topologies: {'path_2': 5}
+  Sample instances: [(61, 67, 370), (67, 367, 370), (67, 370, 380)]...
+
+Motif: ('Endothelial', 'Plasma', 'Treg')
+  Total instances: 5
+  Topologies: {'triangle': 2, 'path_2': 3}
+  Sample instances: [(65, 67, 370), (65, 67, 385), (67, 75, 370)]...
+
+Motif: ('Endothelial', 'Macrophage', 'Pericyte')
+  Total instances: 5
+  Topologies: {'path_2': 5}
+  Sample instances: [(111, 124, 488), (303, 315, 329), (428, 460, 473)]...
+
+Motif: ('CAF', 'CAF', 'Neutrophil')
+  Total instances: 5
+  Topologies: {'path_2': 4, 'triangle': 1}
+  Sample instances: [(334, 345, 354), (334, 345, 363), (334, 363, 365)]...
+
+Motif: ('CAF', 'Malignant', 'Schwann/nerve')
+  Total instances: 4
+  Topologies: {'path_2': 4}
+  Sample instances: [(1, 143, 150), (156, 173, 177), (156, 173, 180)]...
+
+Motif: ('Dendritic (conventional)', 'Endothelial', 'Plasma')
+  Total instances: 4
+  Topologies: {'path_2': 4}
+  Sample instances: [(21, 226, 234), (21, 234, 241), (22, 226, 234)]...
+
+Motif: ('CAF', 'Dendritic (conventional)', 'Plasma')
+  Total instances: 4
+  Topologies: {'path_2': 3, 'triangle': 1}
+  Sample instances: [(22, 25, 234), (33, 34, 259), (33, 34, 266)]...
+
+Motif: ('Macrophage', 'Plasma', 'Smooth muscle')
+  Total instances: 4
+  Topologies: {'path_2': 3, 'triangle': 1}
+  Sample instances: [(27, 245, 246), (66, 307, 356), (94, 442, 453)]...
+
+Motif: ('Natural killer', 'Pericyte', 'Plasma')
+  Total instances: 4
+  Topologies: {'path_2': 3, 'triangle': 1}
+  Sample instances: [(41, 278, 282), (339, 341, 384), (341, 344, 384)]...
+
+Motif: ('CAF', 'Dendritic (activated)', 'Dendritic (activated)')
+  Total instances: 4
+  Topologies: {'triangle': 1, 'path_2': 3}
+  Sample instances: [(59, 61, 336), (59, 321, 336), (59, 336, 363)]...
+
+Motif: ('Dendritic (activated)', 'Macrophage', 'Pericyte')
+  Total instances: 4
+  Topologies: {'path_2': 4}
+  Sample instances: [(59, 310, 333), (302, 310, 323), (310, 323, 333)]...
+
+Motif: ('Endothelial', 'Malignant', 'Smooth muscle')
+  Total instances: 4
+  Topologies: {'triangle': 1, 'path_2': 3}
+  Sample instances: [(95, 453, 464), (95, 453, 476), (163, 210, 246)]...
+
+Motif: ('Endothelial', 'Endothelial', 'Malignant')
+  Total instances: 4
+  Topologies: {'triangle': 1, 'path_2': 3}
+  Sample instances: [(95, 464, 476), (226, 241, 251), (241, 251, 252)]...
+
+Motif: ('CAF', 'Schwann/nerve', 'Smooth muscle')
+  Total instances: 4
+  Topologies: {'path_2': 4}
+  Sample instances: [(150, 154, 159), (154, 159, 160), (159, 160, 166)]...
+
+Motif: ('CAF', 'Neutrophil', 'Pericyte')
+  Total instances: 4
+  Topologies: {'path_2': 4}
+  Sample instances: [(295, 310, 334), (310, 321, 334), (310, 334, 345)]...
+
+Motif: ('CAF', 'CD8+ T', 'Pericyte')
+  Total instances: 4
+  Topologies: {'path_2': 4}
+  Sample instances: [(540, 556, 578), (556, 568, 578), (556, 577, 578)]...
+
+Motif: ('Macrophage', 'Macrophage', 'Mast')
+  Total instances: 3
+  Topologies: {'path_2': 3}
+  Sample instances: [(2, 11, 199), (2, 147, 199), (2, 155, 199)]
+
+Motif: ('Macrophage', 'Pericyte', 'Pericyte')
+  Total instances: 3
+  Topologies: {'triangle': 1, 'path_2': 2}
+  Sample instances: [(3, 5, 7), (5, 7, 152), (5, 152, 161)]
+
+Motif: ('Macrophage', 'Pericyte', 'Smooth muscle')
+  Total instances: 3
+  Topologies: {'path_2': 3}
+  Sample instances: [(3, 7, 159), (236, 278, 289), (326, 331, 341)]
+
+Motif: ('Pericyte', 'Pericyte', 'Plasma')
+  Total instances: 3
+  Topologies: {'path_2': 3}
+  Sample instances: [(5, 7, 144), (77, 407, 434), (400, 434, 450)]
+
+Motif: ('Malignant', 'Pericyte', 'Pericyte')
+  Total instances: 3
+  Topologies: {'triangle': 1, 'path_2': 2}
+  Sample instances: [(5, 7, 156), (5, 156, 164), (7, 156, 164)]
+
+Motif: ('Mast', 'Mast', 'Plasma')
+  Total instances: 3
+  Topologies: {'path_2': 3}
+  Sample instances: [(10, 149, 162), (62, 337, 364), (404, 443, 450)]
+
+Motif: ('Endothelial', 'Plasma', 'Smooth muscle')
+  Total instances: 3
+  Topologies: {'path_2': 2, 'triangle': 1}
+  Sample instances: [(17, 210, 246), (210, 245, 246), (442, 453, 464)]
+
+Motif: ('Dendritic (conventional)', 'Macrophage', 'Macrophage')
+  Total instances: 3
+  Topologies: {'path_2': 2, 'triangle': 1}
+  Sample instances: [(23, 24, 234), (23, 200, 234), (34, 275, 284)]
+
+Motif: ('CAF', 'Dendritic (activated)', 'Smooth muscle')
+  Total instances: 3
+  Topologies: {'path_2': 3}
+  Sample instances: [(26, 246, 267), (26, 246, 277), (304, 323, 326)]
+
+Motif: ('Endothelial', 'Macrophage', 'Smooth muscle')
+  Total instances: 3
+  Topologies: {'path_2': 3}
+  Sample instances: [(27, 210, 246), (94, 453, 464), (453, 464, 478)]
+
+Motif: ('Natural killer', 'Pericyte', 'Smooth muscle')
+  Total instances: 3
+  Topologies: {'path_2': 3}
+  Sample instances: [(41, 278, 289), (326, 341, 384), (341, 384, 387)]
+
+Motif: ('Macrophage', 'Pericyte', 'Schwann/nerve')
+  Total instances: 3
+  Topologies: {'path_2': 2, 'triangle': 1}
+  Sample instances: [(43, 306, 310), (302, 306, 310), (306, 310, 333)]
+
+Motif: ('Dendritic (activated)', 'Macrophage', 'Plasma')
+  Total instances: 3
+  Topologies: {'path_2': 3}
+  Sample instances: [(43, 327, 336), (233, 263, 270), (327, 333, 336)]
+
+Motif: ('Dendritic (activated)', 'Plasma', 'Plasma')
+  Total instances: 3
+  Topologies: {'path_2': 3}
+  Sample instances: [(55, 327, 336), (501, 536, 542), (536, 537, 542)]
+
+Motif: ('Dendritic (activated)', 'Macrophage', 'Neutrophil')
+  Total instances: 3
+  Topologies: {'path_2': 3}
+  Sample instances: [(59, 333, 334), (323, 333, 334), (333, 334, 336)]
+
+Motif: ('Endothelial', 'Endothelial', 'Pericyte')
+  Total instances: 3
+  Topologies: {'path_2': 3}
+  Sample instances: [(77, 370, 385), (111, 476, 488), (464, 476, 488)]
+
+Motif: ('Macrophage', 'Malignant', 'Natural killer')
+  Total instances: 3
+  Topologies: {'path_2': 3}
+  Sample instances: [(85, 86, 452), (100, 446, 468), (110, 446, 468)]
+
+Motif: ('Macrophage', 'Natural killer', 'Pericyte')
+  Total instances: 3
+  Topologies: {'path_2': 3}
+  Sample instances: [(85, 428, 460), (341, 384, 428), (384, 428, 460)]
+
+Motif: ('Malignant', 'Smooth muscle', 'Smooth muscle')
+  Total instances: 3
+  Topologies: {'path_2': 3}
+  Sample instances: [(86, 387, 420), (90, 387, 420), (387, 420, 445)]
+
+Motif: ('Malignant', 'Plasma', 'Smooth muscle')
+  Total instances: 3
+  Topologies: {'path_2': 2, 'triangle': 1}
+  Sample instances: [(95, 442, 453), (326, 338, 339), (442, 449, 453)]
+
+Motif: ('Pericyte', 'Plasma', 'Schwann/nerve')
+  Total instances: 3
+  Topologies: {'path_2': 3}
+  Sample instances: [(150, 162, 168), (164, 170, 194), (286, 306, 310)]
+
+Motif: ('Pericyte', 'Schwann/nerve', 'Schwann/nerve')
+  Total instances: 3
+  Topologies: {'triangle': 1, 'path_2': 2}
+  Sample instances: [(164, 170, 177), (164, 170, 180), (164, 177, 180)]
+
+Motif: ('CAF', 'Macrophage', 'Neutrophil')
+  Total instances: 3
+  Topologies: {'path_2': 2, 'triangle': 1}
+  Sample instances: [(321, 333, 334), (333, 334, 345), (333, 334, 363)]
+
+Motif: ('Dendritic (activated)', 'Pericyte', 'Plasma')
+  Total instances: 3
+  Topologies: {'path_2': 3}
+  Sample instances: [(323, 339, 341), (323, 341, 344), (323, 341, 374)]
+
+Motif: ('Endothelial', 'Endothelial', 'Macrophage')
+  Total instances: 3
+  Topologies: {'triangle': 1, 'path_2': 2}
+  Sample instances: [(464, 476, 478), (464, 478, 487), (476, 478, 487)]
+
+Motif: ('Pericyte', 'Pericyte', 'Smooth muscle')
+  Total instances: 2
+  Topologies: {'path_2': 2}
+  Sample instances: [(5, 7, 159), (7, 159, 164)]
+
+Motif: ('Macrophage', 'Mast', 'Pericyte')
+  Total instances: 2
+  Topologies: {'path_2': 2}
+  Sample instances: [(8, 15, 168), (512, 521, 551)]
+
+Motif: ('Dendritic (activated)', 'Endothelial', 'Plasma')
+  Total instances: 2
+  Topologies: {'path_2': 2}
+  Sample instances: [(17, 26, 210), (26, 210, 245)]
+
+Motif: ('Endothelial', 'Plasma', 'Schwann/nerve')
+  Total instances: 2
+  Topologies: {'path_2': 2}
+  Sample instances: [(22, 193, 226), (252, 286, 306)]
+
+Motif: ('Dendritic (conventional)', 'Endothelial', 'Macrophage')
+  Total instances: 2
+  Topologies: {'path_2': 2}
+  Sample instances: [(23, 226, 234), (23, 234, 241)]
+
+Motif: ('CAF', 'CAF', 'Dendritic (conventional)')
+  Total instances: 2
+  Topologies: {'path_2': 1, 'triangle': 1}
+  Sample instances: [(25, 215, 234), (34, 259, 266)]
+
+Motif: ('Dendritic (activated)', 'Macrophage', 'Macrophage')
+  Total instances: 2
+  Topologies: {'path_2': 2}
+  Sample instances: [(26, 27, 155), (135, 580, 581)]
+
+Motif: ('Dendritic (activated)', 'Endothelial', 'Macrophage')
+  Total instances: 2
+  Topologies: {'path_2': 2}
+  Sample instances: [(26, 27, 210), (555, 580, 581)]
+
+Motif: ('Macrophage', 'Macrophage', 'Smooth muscle')
+  Total instances: 2
+  Topologies: {'path_2': 2}
+  Sample instances: [(27, 155, 246), (325, 326, 331)]
+
+Motif: ('Natural killer', 'Plasma', 'Smooth muscle')
+  Total instances: 2
+  Topologies: {'triangle': 1, 'path_2': 1}
+  Sample instances: [(41, 282, 289), (344, 384, 387)]
+
+Motif: ('Macrophage', 'Macrophage', 'Schwann/nerve')
+  Total instances: 2
+  Topologies: {'path_2': 2}
+  Sample instances: [(43, 44, 306), (43, 302, 306)]
+
+Motif: ('Mast', 'Pericyte', 'Smooth muscle')
+  Total instances: 2
+  Topologies: {'path_2': 2}
+  Sample instances: [(53, 278, 289), (404, 434, 456)]
+
+Motif: ('Mast', 'Plasma', 'Smooth muscle')
+  Total instances: 2
+  Topologies: {'path_2': 2}
+  Sample instances: [(53, 282, 289), (307, 318, 356)]
+
+Motif: ('Endothelial', 'Endothelial', 'Treg')
+  Total instances: 2
+  Topologies: {'path_2': 1, 'triangle': 1}
+  Sample instances: [(67, 352, 370), (67, 370, 385)]
+
+Motif: ('Plasma', 'Plasma', 'Smooth muscle')
+  Total instances: 2
+  Topologies: {'path_2': 2}
+  Sample instances: [(80, 442, 453), (326, 339, 344)]
+
+Motif: ('Macrophage', 'Macrophage', 'Natural killer')
+  Total instances: 2
+  Topologies: {'path_2': 2}
+  Sample instances: [(85, 428, 452), (85, 452, 459)]
+
+Motif: ('Malignant', 'Pericyte', 'Schwann/nerve')
+  Total instances: 2
+  Topologies: {'path_2': 2}
+  Sample instances: [(156, 164, 170), (156, 164, 177)]
+
+Motif: ('Pericyte', 'Schwann/nerve', 'Smooth muscle')
+  Total instances: 2
+  Topologies: {'path_2': 2}
+  Sample instances: [(159, 164, 170), (159, 164, 177)]
+
+Motif: ('Dendritic (conventional)', 'Endothelial', 'Endothelial')
+  Total instances: 2
+  Topologies: {'triangle': 1, 'path_2': 1}
+  Sample instances: [(226, 234, 241), (234, 241, 252)]
+
+Motif: ('Endothelial', 'Endothelial', 'Endothelial')
+  Total instances: 2
+  Topologies: {'path_2': 2}
+  Sample instances: [(226, 241, 252), (352, 370, 385)]
+
+Motif: ('Macrophage', 'Neutrophil', 'Pericyte')
+  Total instances: 2
+  Topologies: {'path_2': 1, 'triangle': 1}
+  Sample instances: [(302, 310, 334), (310, 333, 334)]
+
+Motif: ('Dendritic (activated)', 'Neutrophil', 'Pericyte')
+  Total instances: 2
+  Topologies: {'triangle': 1, 'path_2': 1}
+  Sample instances: [(310, 323, 334), (323, 334, 341)]
+
+Motif: ('CAF', 'Mast', 'Neutrophil')
+  Total instances: 2
+  Topologies: {'path_2': 2}
+  Sample instances: [(334, 345, 369), (334, 363, 369)]
+
+Motif: ('Endothelial', 'Mast', 'Pericyte')
+  Total instances: 2
+  Topologies: {'path_2': 2}
+  Sample instances: [(366, 400, 404), (510, 521, 551)]
+
+Motif: ('Malignant', 'Mast', 'Pericyte')
+  Total instances: 2
+  Topologies: {'path_2': 2}
+  Sample instances: [(521, 551, 554), (521, 551, 558)]
+
+Motif: ('Malignant', 'Mast', 'Schwann/nerve')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(1, 149, 150)]
+
+Motif: ('Malignant', 'Plasma', 'Schwann/nerve')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(1, 150, 162)]
+
+Motif: ('Mast', 'Mast', 'Schwann/nerve')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(10, 149, 150)]
+
+Motif: ('Mast', 'Schwann/nerve', 'Schwann/nerve')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(10, 150, 160)]
+
+Motif: ('Endothelial', 'Mast', 'Plasma')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(17, 199, 210)]
+
+Motif: ('Dendritic (activated)', 'Macrophage', 'Smooth muscle')
+  Total instances: 1
+  Topologies: {'triangle': 1}
+  Sample instances: [(26, 27, 246)]
+
+Motif: ('Dendritic (activated)', 'Endothelial', 'Malignant')
+  Total instances: 1
+  Topologies: {'triangle': 1}
+  Sample instances: [(26, 163, 210)]
+
+Motif: ('Dendritic (activated)', 'Malignant', 'Smooth muscle')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(26, 163, 246)]
+
+Motif: ('Dendritic (activated)', 'Endothelial', 'Smooth muscle')
+  Total instances: 1
+  Topologies: {'triangle': 1}
+  Sample instances: [(26, 210, 246)]
+
+Motif: ('Dendritic (activated)', 'Plasma', 'Smooth muscle')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(26, 245, 246)]
+
+Motif: ('Dendritic (activated)', 'Malignant', 'Mast')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(30, 233, 237)]
+
+Motif: ('Dendritic (conventional)', 'Dendritic (conventional)', 'Malignant')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(34, 234, 251)]
+
+Motif: ('Mast', 'Natural killer', 'Plasma')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(41, 53, 282)]
+
+Motif: ('Mast', 'Natural killer', 'Smooth muscle')
+  Total instances: 1
+  Topologies: {'triangle': 1}
+  Sample instances: [(41, 53, 289)]
+
+Motif: ('Dendritic (activated)', 'Dendritic (activated)', 'Plasma')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(59, 327, 336)]
+
+Motif: ('Dendritic (activated)', 'Dendritic (activated)', 'Macrophage')
+  Total instances: 1
+  Topologies: {'triangle': 1}
+  Sample instances: [(59, 333, 336)]
+
+Motif: ('CAF', 'Dendritic (plasmacytoid)', 'Natural killer')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(63, 298, 389)]
+
+Motif: ('CAF', 'Dendritic (plasmacytoid)', 'Mast')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(63, 308, 389)]
+
+Motif: ('Plasma', 'Plasma', 'Treg')
+  Total instances: 1
+  Topologies: {'triangle': 1}
+  Sample instances: [(65, 67, 75)]
+
+Motif: ('Endothelial', 'Pericyte', 'Treg')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(67, 77, 385)]
+
+Motif: ('CAF', 'Natural killer', 'Natural killer')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(85, 384, 422)]
+
+Motif: ('Macrophage', 'Natural killer', 'Natural killer')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(85, 384, 428)]
+
+Motif: ('Dendritic (activated)', 'Dendritic (activated)', 'Malignant')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(130, 536, 581)]
+
+Motif: ('Mast', 'Mast', 'Pericyte')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(131, 521, 551)]
+
+Motif: ('CAF', 'CD8+ T', 'Mast')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(131, 576, 578)]
+
+Motif: ('Schwann/nerve', 'Schwann/nerve', 'Schwann/nerve')
+  Total instances: 1
+  Topologies: {'triangle': 1}
+  Sample instances: [(170, 177, 180)]
+
+Motif: ('Endothelial', 'Mast', 'Smooth muscle')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(196, 220, 231)]
+
+Motif: ('Endothelial', 'Mast', 'Mast')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(196, 231, 237)]
+
+Motif: ('Endothelial', 'Malignant', 'Mast')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(196, 231, 269)]
+
+Motif: ('Mast', 'Mast', 'Smooth muscle')
+  Total instances: 1
+  Topologies: {'triangle': 1}
+  Sample instances: [(220, 231, 237)]
+
+Motif: ('Dendritic (activated)', 'Mast', 'Smooth muscle')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(220, 233, 237)]
+
+Motif: ('Macrophage', 'Mast', 'Smooth muscle')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(220, 237, 263)]
+
+Motif: ('Dendritic (activated)', 'Mast', 'Mast')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(231, 233, 237)]
+
+Motif: ('Macrophage', 'Mast', 'Mast')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(231, 237, 263)]
+
+Motif: ('Dendritic (activated)', 'Macrophage', 'Mast')
+  Total instances: 1
+  Topologies: {'triangle': 1}
+  Sample instances: [(233, 237, 263)]
+
+Motif: ('Macrophage', 'Mast', 'Natural killer')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(298, 308, 322)]
+
+Motif: ('Dendritic (activated)', 'Pericyte', 'Schwann/nerve')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(306, 310, 323)]
+
+Motif: ('Neutrophil', 'Pericyte', 'Schwann/nerve')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(306, 310, 334)]
+
+Motif: ('CAF', 'Dendritic (activated)', 'Schwann/nerve')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(306, 321, 336)]
+
+Motif: ('Mast', 'Smooth muscle', 'Smooth muscle')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(307, 312, 318)]
+
+Motif: ('Dendritic (plasmacytoid)', 'Macrophage', 'Mast')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(308, 322, 389)]
+
+Motif: ('Dendritic (activated)', 'Pericyte', 'Pericyte')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(310, 323, 341)]
+
+Motif: ('Dendritic (activated)', 'Pericyte', 'Smooth muscle')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(323, 326, 341)]
+
+Motif: ('Dendritic (activated)', 'Natural killer', 'Pericyte')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(323, 341, 384)]
+
+Motif: ('Malignant', 'Natural killer', 'Plasma')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(338, 344, 384)]
+
+Motif: ('Natural killer', 'Plasma', 'Plasma')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(339, 344, 384)]
+
+Motif: ('Macrophage', 'Natural killer', 'Plasma')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(344, 384, 428)]
+
+Motif: ('Natural killer', 'Smooth muscle', 'Smooth muscle')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(384, 387, 420)]
+
+Motif: ('Macrophage', 'Natural killer', 'Smooth muscle')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(384, 387, 428)]
+
+Motif: ('Mast', 'Pericyte', 'Pericyte')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(400, 404, 434)]
+
+Motif: ('Endothelial', 'Endothelial', 'Smooth muscle')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(453, 464, 476)]
+
+Motif: ('CAF', 'CD8+ T', 'Endothelial')
+  Total instances: 1
+  Topologies: {'path_2': 1}
+  Sample instances: [(549, 578, 579)]
+
