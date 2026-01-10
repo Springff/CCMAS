@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(dir)",
-      "Bash(dir \"D:\\\\Desktop\\\\Agent\\\\BioInfoMAS\\\\input\")",
-      "Bash(python \"D:\\\\Desktop\\\\Agent\\\\BioInfoMAS\\\\ETAI\\\\motif_identification\\\\motif_analysis.py\")"
-    ]
-  }
-}
