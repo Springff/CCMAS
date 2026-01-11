@@ -5,6 +5,7 @@
 ![Status](https://img.shields.io/badge/Status-Production-orange)
 ![Bioinformatics](https://img.shields.io/badge/Domain-Bioinformatics-purple)
 ![DeepWiki](https://deepwiki.com/Springff/CCMAS)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Springff/CCMAS)
 
 **CCMAS (Cell Communication Multi-Agent System)** 是一个生产级生物信息学多智能体协作系统。该系统深度整合 **AutoGen** 框架与 **LLM（大语言模型）**，专为复杂的单细胞/空间转录组分析、细胞模体识别及生物知识提取而设计。
 
