@@ -6,7 +6,7 @@
 ![Bioinformatics](https://img.shields.io/badge/Domain-Bioinformatics-purple)
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Springff/CCMAS)
 
-**CCMAS (Cell Communication Multi-Agent System)** 是一个生产级生物医学多智能体协作系统。该系统深度整合 **AutoGen** 框架与 **LLM（大语言模型）**，专为复杂的单细胞/空间转录组分析、细胞模体识别及生物医学知识提取而设计。
+**CCMAS (Cell Communication Multi-Agent System)** 是一个生产级 **生物医学** 多智能体协作系统。该系统深度整合 **AutoGen** 框架与 **LLM（大语言模型）**，专为复杂的单细胞/空间转录组分析、细胞模体识别及生物医学知识提取而设计。
 
 > 🔬 **核心概念：细胞模体 (Cell Motif)**
 > 指在基于细胞空间位置构建的图网络中，频繁出现且具有统计学显著性的特定细胞组合模式，通常暗示着关键的微环境相互作用。
