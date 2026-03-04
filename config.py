@@ -70,7 +70,7 @@ class CCMASConfig:
 
         return cls(
             llm_api_key=os.getenv("LLM_API_KEY", ""),
-            llm_model_id=os.getenv("LLM_MODEL_ID", "gpt-4"),
+            llm_model_id=os.getenv("LLM_MODEL_ID", "gpt-5.1"),
             llm_base_url=os.getenv("LLM_BASE_URL", "https://api.openai.com/v1"),
             llm_timeout=int(os.getenv("AUTOGEN_TIMEOUT", "300")),
             llm_cache_seed=int(os.getenv("AUTOGEN_CACHE_SEED", "40")),
