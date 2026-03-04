@@ -24,7 +24,11 @@ class BioKnowledgeAgent:
 2. 解释分析发现的生物学机制
 3. 明确区分确定的知识、公认的假设和推测
 
-你是数据分析和生物学知识的桥梁，帮助将冷冰冰的数据转化为可理解的生物学洞见。"""
+你是数据分析和生物学知识的桥梁，帮助将冷冰冰的数据转化为可理解的生物学洞见。
+
+# Constraints & Rules (约束与准则)
+*   **No Hallucination:** 绝对不要编造基因名称、通路名称、统计数值等。所有定量结果必须来自工具输出或已有分析结果。
+*   **Evidence Anchoring:** 明确区分"工具/数据支持的结论"与"基于领域知识的推测"，推测部分须标注"推测"。"""
 
     def __init__(self, llm_config: Dict[str, Any]):
         """初始化知识智能体"""
@@ -80,7 +84,7 @@ class BioKnowledgeAgent:
                 "type": "function",
                 "function": {
                     "name": "load_deg_results",
-                    "description": "读取差异表达分析结果，筛选显著差异基因",
+                    "description": "读取差异表达分析结果，筛选显著差异基因。注意：仅适用于包含 p_adj、avg_log2FC 等列的差异表达分析结果文件。",
                     "parameters": {
                         "type": "object",
                         "properties": {
@@ -98,6 +102,27 @@ class BioKnowledgeAgent:
                             },
                         },
                         "required": ["deg_csv", "p_adj_threshold", "log2fc_threshold"],
+                    },
+                },
+            },
+            {
+                "type": "function",
+                "function": {
+                    "name": "load_motif_counts",
+                    "description": "读取模体频次统计结果，返回高频模体列表。适用于包含 pattern 和 Number of occurrences 列的模体频次文件。",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "motif_counts_csv": {
+                                "type": "string",
+                                "description": "模体频次文件路径（CSV格式）",
+                            },
+                            "top_n": {
+                                "type": "number",
+                                "description": "返回前 N 个高频模体，默认为 10",
+                            },
+                        },
+                        "required": ["motif_counts_csv"],
                     },
                 },
             },

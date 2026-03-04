@@ -5,7 +5,7 @@ PlanAgent - 生产级规划者智能体
 """
 
 from autogen import ConversableAgent
-from typing import Dict, List, Any, Callable
+from typing import Dict, List, Any
 import logging
 
 logger = logging.getLogger(__name__)

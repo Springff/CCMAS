@@ -4,9 +4,8 @@ MotifAgent - 模体识别智能体
 """
 
 from autogen import ConversableAgent
-from typing import Dict, Any, List, Callable
+from typing import Dict, Any, List
 import logging
-import json
 
 
 logger = logging.getLogger(__name__)

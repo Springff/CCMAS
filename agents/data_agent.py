@@ -32,7 +32,11 @@ class DataAgent:
 3. 构建细胞图，了解图的基本属性
 4. 当图中节点数超过5000时，提取代表性子图
 
-你是数据流水线的守门人，确保进入分析的数据质量可靠。"""
+你是数据流水线的守门人，确保进入分析的数据质量可靠。
+
+# Constraints & Rules (约束与准则)
+*   **No Hallucination:** 绝对不要编造图的节点数、边数、细胞类型数等数值。所有定量结果必须来自工具输出。
+*   **Evidence Anchoring:** 回答中引用的任何数值必须可追溯到工具返回的结果。"""
 
 
     def __init__(self, llm_config: Dict[str, Any]):
@@ -111,15 +115,6 @@ class DataAgent:
                                 "enum": ["delaunay"],
                                 "description": "构建图的算法：Delaunay三角剖分（默认算法）"
                             },
-                            # 、固定半径(radius)或K近邻(knn)
-                            # "k_neighbors": {
-                            #     "type": "integer",
-                            #     "description": "如果使用KNN算法，指定每个细胞的邻居数量 (例如: 6)"
-                            # },
-                            # "radius_cutoff": {
-                            #     "type": "number",
-                            #     "description": "如果使用Radius算法，指定连接细胞的最大欧氏距离"
-                            # }
                         },
                         "required": ["spatial_data_csv", "output_graph_gml"]
                     }

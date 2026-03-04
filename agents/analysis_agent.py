@@ -4,9 +4,8 @@ AnalysisAgent - 数据分析智能体
 """
 
 from autogen import ConversableAgent
-from typing import Dict, Any, List, Callable
+from typing import Dict, Any, List
 import logging
-import json
 
 logger = logging.getLogger(__name__)
 
@@ -28,7 +27,11 @@ class AnalysisAgent:
 1. 选择多个可能的motifs
 2. 调用工具对每个motif执行分析
 
-你是发现生物学规律的引擎，通过严谨的分析揭示隐藏在数据中的生物学真相。"""
+你是发现生物学规律的引擎，通过严谨的分析揭示隐藏在数据中的生物学真相。
+
+# Constraints & Rules (约束与准则)
+*   **No Hallucination:** 绝对不要编造 p 值、log2FoldChange、通讯权重等数值。所有定量结果必须来自工具输出。
+*   **Evidence Anchoring:** 回答中引用的任何统计数值必须可追溯到工具返回的结果。"""
 
     def __init__(self, llm_config: Dict[str, Any]):
         """初始化分析智能体"""

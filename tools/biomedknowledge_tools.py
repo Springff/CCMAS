@@ -84,8 +84,31 @@ def load_deg_results(
 ) -> Dict[str, Any]:
     """
     读取差异表达分析结果，可选筛选显著差异基因。
+
+    注意：此工具仅适用于差异表达分析结果文件（包含 p_adj、avg_log2FC 等列）。
+    如果文件是模体频次文件，请使用 load_motif_counts 工具。
     """
     df = pd.read_csv(deg_csv)
+
+    # 检查是否为差异表达分析结果文件
+    required_columns = ["p_adj", "avg_log2FC"]
+    missing_columns = [col for col in required_columns if col not in df.columns]
+
+    if missing_columns:
+        # 如果缺少必需列，可能是模体频次文件
+        if "pattern" in df.columns and "Number of occurrences" in df.columns:
+            return {
+                "status": "error",
+                "error": "文件格式不匹配：检测到模体频次文件，请使用 load_motif_counts 工具",
+                "details": f"缺少差异表达分析必需列: {missing_columns}，但发现模体频次列: pattern, Number of occurrences"
+            }
+        else:
+            return {
+                "status": "error",
+                "error": "文件格式不匹配：缺少差异表达分析必需列",
+                "details": f"缺少列: {missing_columns}，可用列: {list(df.columns)}"
+            }
+
     significant_genes = []
     if p_adj_threshold is not None and log2fc_threshold is not None:
         sig_df = df[
@@ -103,6 +126,7 @@ def load_deg_results(
     sig_count = len(significant_genes)
 
     result = {
+        "status": "success",
         "significant_genes": significant_genes,
         "summary": {
             "total_genes": total,
@@ -110,6 +134,68 @@ def load_deg_results(
             "down_genes": int(down_all),
             "significant_count": sig_count,
         }
+    }
+    return result
+
+
+def load_motif_counts(
+    motif_counts_csv: str,
+    top_n: int = 10,
+) -> Dict[str, Any]:
+    """
+    读取模体频次统计结果，返回高频模体列表。
+
+    Args:
+        motif_counts_csv: 模体频次文件路径（CSV格式）
+        top_n: 返回前 N 个高频模体
+
+    Returns:
+        {
+            "status": "success",
+            "total_motifs": int,
+            "top_motifs": [
+                {"rank": int, "pattern": str, "count": int},
+                ...
+            ]
+        }
+    """
+    df = pd.read_csv(motif_counts_csv)
+
+    # 检查是否为模体频次文件
+    if "pattern" not in df.columns or "Number of occurrences" not in df.columns:
+        return {
+            "status": "error",
+            "error": "文件格式不匹配：不是模体频次文件",
+            "details": f"缺少必需列: pattern, Number of occurrences，可用列: {list(df.columns)}"
+        }
+
+    # 按频次降序排序
+    df_sorted = df.sort_values("Number of occurrences", ascending=False)
+
+    # 提取前 N 个模体
+    top_motifs = []
+    for idx, row in df_sorted.head(top_n).iterrows():
+        pattern = row["pattern"]
+        count = row["Number of occurrences"]
+
+        # 解析模式字符串（例如 "('CAF', 'CAF', 'CAF')"）
+        try:
+            import ast
+            cell_types = ast.literal_eval(pattern)
+            pattern_str = ", ".join(cell_types)
+        except:
+            pattern_str = pattern
+
+        top_motifs.append({
+            "rank": len(top_motifs) + 1,
+            "pattern": pattern_str,
+            "count": int(count)
+        })
+
+    result = {
+        "status": "success",
+        "total_motifs": len(df),
+        "top_motifs": top_motifs
     }
     return result
 

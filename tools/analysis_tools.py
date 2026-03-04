@@ -5,7 +5,16 @@ import numpy as np
 import ast
 import os
 import subprocess
+from pathlib import Path
 from .motif_tools import find_subgraphs_vf2
+
+# R 脚本目录配置（可通过环境变量 R_SCRIPTS_DIR 覆盖）
+_R_SCRIPTS_DIR = os.getenv("R_SCRIPTS_DIR", str(Path(__file__).parent))
+
+
+def _get_r_script_path(script_name: str) -> str:
+    """获取 R 脚本完整路径"""
+    return str(Path(_R_SCRIPTS_DIR) / script_name)
 
 
 def _seek_motifs(gml_file, target_labels, edges, output_paths):
@@ -161,7 +170,7 @@ def cellchat(
     )
 
     motifs = "_".join(target_labels)
-    r_script = r"D:\Desktop\Agent\BioInfoMAS\tools\analysis_tools\cellchat.r"
+    r_script = _get_r_script_path("cellchat.r")
     result = subprocess.run(
         [
             "Rscript",
@@ -203,7 +212,7 @@ def DE_analysis(
     motif_csv = _seek_motifs(gml_file, target_labels, [(0, 1), (0, 2), (1, 2)], output_paths)
     label_csv = _extract_target_cells(target_cell, spatial_csv, gene_matrix_txt, motif_csv, output_paths)
 
-    r_script = r"D:\Desktop\Agent\BioInfoMAS\tools\analysis_tools\txt2mtx.r"
+    r_script = _get_r_script_path("txt2mtx.r")
     result = subprocess.run(
         [
             "Rscript",
@@ -216,7 +225,7 @@ def DE_analysis(
     )
     counts_mtx = gene_matrix_txt.replace(".txt", ".mtx")
 
-    r_script = r"D:\Desktop\Agent\BioInfoMAS\tools\analysis_tools\DEA.r"
+    r_script = _get_r_script_path("DEA.r")
     result = subprocess.run(
         [
             "Rscript",
